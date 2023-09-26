@@ -19,8 +19,7 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
     FaceSnapListComponent,
     HeaderComponent,
     LandingPageComponent,
-    SingleFaceSnapComponent
-
+    SingleFaceSnapComponent,
   ],
   imports: [
     BrowserModule,
