@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { DiagrammeUml } from '../models/diagramme-uml.model';
+import { DiagrammeUmlsService } from '../services/diagrammes-uml.service';
 
 @Component({
   selector: 'app-diagramme-uml-list',
@@ -6,6 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./diagramme-uml-list.component.scss']
 })
 
-export class DiagrammeUmlListComponent {
+export class DiagrammeUmlListComponent implements OnInit {
+
+   diagrammeUmls! : DiagrammeUml [];
+  diagrammeUmlsService: any;
+
+   constructor(private diagrammeUmlService: DiagrammeUmlsService) { }
+   
+  ngOnInit(): void {
+    this.diagrammeUmls = this.diagrammeUmlsService.getAllDiagrammeUmls();
+  }
 
 }

@@ -5,7 +5,7 @@ import { DiagrammeUml } from "../models/diagramme-uml.model";
     providedIn: 'root'
 })
 
-export class DiagrammesUmlService{
+export class DiagrammeUmlsService{
 
     diagrammesUml: DiagrammeUml[] = [
 
