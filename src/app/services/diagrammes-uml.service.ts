@@ -7,52 +7,53 @@ import { DiagrammeUml } from "../models/diagramme-uml.model";
 
 export class DiagrammeUmlsService{
 
-    diagrammesUml: DiagrammeUml[] = [
+    diagrammesUmls: DiagrammeUml[] = [
 
         {
             id : 1,
-            title: 'Me With Oncle Mike',
+            title: 'UML1',
             description: 'Training Hard ',
-            imageUrl: 'https://image-cdn.essentiallysports.com/wp-content/uploads/Screenshot-2023-04-04-141641.jpg?width=600',
+            imageUrl: 'https://media.licdn.com/dms/image/D4D12AQGuRe4ocapMCA/article-cover_image-shrink_600_2000/0/1689147916438?e=2147483647&v=beta&t=8vg9nvsV5hQV_OUm4UgZQdNrBUyq9fSHVLXFuHhtnok',
+        },
+
+        {
+            id : 2,
+            title: 'UML2',
+            description: 'Training Hard ',
+            imageUrl: 'https://media.licdn.com/dms/image/D4D12AQGuRe4ocapMCA/article-cover_image-shrink_600_2000/0/1689147916438?e=2147483647&v=beta&t=8vg9nvsV5hQV_OUm4UgZQdNrBUyq9fSHVLXFuHhtnok',
         },
 
         {
             id : 3,
-            title: 'Me With Oncle Mike',
+            title: 'UML3',
             description: 'Training Hard ',
-            imageUrl: 'https://image-cdn.essentiallysports.com/wp-content/uploads/Screenshot-2023-04-04-141641.jpg?width=600',
-        },
-
-        {
-            id : 3,
-            title: 'Me With Oncle Mike',
-            description: 'Training Hard ',
-            imageUrl: 'https://image-cdn.essentiallysports.com/wp-content/uploads/Screenshot-2023-04-04-141641.jpg?width=600',
+            imageUrl: 'https://media.licdn.com/dms/image/D4D12AQGuRe4ocapMCA/article-cover_image-shrink_600_2000/0/1689147916438?e=2147483647&v=beta&t=8vg9nvsV5hQV_OUm4UgZQdNrBUyq9fSHVLXFuHhtnok',
         },
 
         {
             id : 4,
-            title: 'Me With Oncle Mike',
+            title: 'UML4',
             description: 'Training Hard ',
-            imageUrl: 'https://image-cdn.essentiallysports.com/wp-content/uploads/Screenshot-2023-04-04-141641.jpg?width=600',
+            imageUrl: 'https://media.licdn.com/dms/image/D4D12AQGuRe4ocapMCA/article-cover_image-shrink_600_2000/0/1689147916438?e=2147483647&v=beta&t=8vg9nvsV5hQV_OUm4UgZQdNrBUyq9fSHVLXFuHhtnok',
         },
 
         {
             id : 5,
-            title: 'Me With Oncle Mike',
+            title: 'UML5',
             description: 'Training Hard ',
-            imageUrl: 'https://image-cdn.essentiallysports.com/wp-content/uploads/Screenshot-2023-04-04-141641.jpg?width=600',
+            imageUrl: 'https://media.licdn.com/dms/image/D4D12AQGuRe4ocapMCA/article-cover_image-shrink_600_2000/0/1689147916438?e=2147483647&v=beta&t=8vg9nvsV5hQV_OUm4UgZQdNrBUyq9fSHVLXFuHhtnok',
         },
 
     ];
-  getDiagrammeUmlById: any;
 
-    getAllDiagrammeUml(): DiagrammeUml[]{
-        return this.diagrammesUml;
+  
+
+    getAllDiagrammeUmls(): DiagrammeUml[]{
+        return this.diagrammesUmls;
     }
 
     getDiagrammeById(diagrammeUmlId:number): DiagrammeUml{
-        const diagrammeUml = this.diagrammesUml.find(diagrammeUml => diagrammeUml.id === diagrammeUmlId);
+        const diagrammeUml = this.diagrammesUmls.find(diagrammeUml => diagrammeUml.id === diagrammeUmlId);
         if (!diagrammeUml){
             throw new Error ('FaceSnap not found');
         }else{

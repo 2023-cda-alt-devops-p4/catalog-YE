@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DiagrammeUml } from '../models/diagramme-uml.model';
+import { DiagrammeUmlsService } from '../services/diagrammes-uml.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,11 +10,11 @@ import { Router } from '@angular/router';
 })
 export class DiagrammeUmlComponent implements OnInit {
 
-  @Input() diagrammeUml!: DiagrammeUml;
-  buttonText!:string;
+  @Input() 
+  diagrammeUml!: DiagrammeUml;
   
-  constructor( private DiagrammeUmlService : DiagrammeUml,
-    private router : Router) { }
+constructor ( private diagrammeUmlsService : DiagrammeUmlsService,
+              private router : Router) { }
 
   ngOnInit(): void { }
 

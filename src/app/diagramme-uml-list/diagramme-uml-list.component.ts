@@ -10,10 +10,9 @@ import { DiagrammeUmlsService } from '../services/diagrammes-uml.service';
 
 export class DiagrammeUmlListComponent implements OnInit {
 
-   diagrammeUmls! : DiagrammeUml [];
-  diagrammeUmlsService: any;
+   diagrammeUmls! : DiagrammeUml[];
 
-   constructor(private diagrammeUmlService: DiagrammeUmlsService) { }
+  constructor(private diagrammeUmlsService : DiagrammeUmlsService) { }
    
   ngOnInit(): void {
     this.diagrammeUmls = this.diagrammeUmlsService.getAllDiagrammeUmls();

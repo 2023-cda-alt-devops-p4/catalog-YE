@@ -11,6 +11,7 @@ const routes: Routes = [
     {path: '' , component : LandingPageComponent}
 ];
 
+
 @NgModule({
     imports : [RouterModule.forRoot(routes)
     ],

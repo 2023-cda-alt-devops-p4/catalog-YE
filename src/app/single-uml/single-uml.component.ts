@@ -21,7 +21,7 @@ export class SingleUmlComponent implements OnInit {
 
   ngOnInit():void {
    const diagrammeUmlId = +this.route.snapshot.params['id'];
-   this.diagrammeUml = this.diagrammeUmlsService.getDiagrammeById(diagrammeUmlId)
+   this.diagrammeUml = this.diagrammeUmlsService.getDiagrammeById(diagrammeUmlId);
 
   }
 }
