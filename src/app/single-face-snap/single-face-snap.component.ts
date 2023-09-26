@@ -8,6 +8,8 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './single-face-snap.component.html',
   styleUrls: ['./single-face-snap.component.scss']
 })
+
+
 export class SingleFaceSnapComponent implements OnInit {
   faceSnap!: FaceSnap;
   buttonText!: string;

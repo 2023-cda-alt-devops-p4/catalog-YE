@@ -3,5 +3,5 @@ export class DiagrammeUml{
     title!: string;
     description!: string;
     imageUrl!:string;
-    static id: any;
+
 }

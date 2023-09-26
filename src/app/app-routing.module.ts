@@ -1,12 +1,13 @@
 import { NgModule } from "@angular/core";
 import  { RouterModule, Routes } from "@angular/router";
-import { FaceSnapListComponent } from "./face-snap-list/face-snap-list.component";
+
 import { LandingPageComponent } from "./landing-page/landing-page.component";
-import { SingleFaceSnapComponent } from "./single-face-snap/single-face-snap.component";
+import { SingleUmlComponent } from "./single-uml/single-uml.component";
+import { DiagrammeUmlListComponent } from "./diagramme-uml-list/diagramme-uml-list.component";
 
 const routes: Routes = [
-    {path : 'facesnaps/:id' ,component: SingleFaceSnapComponent},
-    {path: 'facesnaps', component : FaceSnapListComponent },
+    {path : 'diagrammeumls/:id', component: SingleUmlComponent},
+    {path : 'diagrammeumls', component : DiagrammeUmlListComponent},
     {path: '' , component : LandingPageComponent}
 ];
 
