@@ -12,6 +12,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
 import { DiagrammeUmlComponent } from './diagramme-uml/diagramme-uml.component';
 import { DiagrammeUmlListComponent } from './diagramme-uml-list/diagramme-uml-list.component';
+import { SingleUmlComponent } from './single-uml/single-uml.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { DiagrammeUmlListComponent } from './diagramme-uml-list/diagramme-uml-li
     SingleFaceSnapComponent,
     DiagrammeUmlComponent,
     DiagrammeUmlListComponent,
+    SingleUmlComponent,
   ],
   imports: [
     BrowserModule,
