@@ -14,6 +14,6 @@ export class LandingPageComponent  implements OnInit {
   }
 
   onContinue() {
-    this.router.navigateByUrl('facesnaps')
+    this.router.navigateByUrl('diagrammeumls')
   }
 }

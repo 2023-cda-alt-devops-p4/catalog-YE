@@ -18,7 +18,7 @@ export class DiagrammeUmlComponent implements OnInit {
   ngOnInit(): void { }
 
   onViewDiagrammeUml(){
-    this.router.navigateByUrl(`diagrammeuml/${this.diagrammeUml.id}`);
+    this.router.navigateByUrl(`diagrammeumls/${this.diagrammeUml.id}`);
       }
 
 }

@@ -4,12 +4,9 @@ import { registerLocaleData } from '@angular/common';
 import * as fr from '@angular/common/locales/fr';
 
 import { AppComponent } from './app.component';
-import { FaceSnapComponent } from './face-snap/face-snap.component';
-import { FaceSnapListComponent } from './face-snap-list/face-snap-list.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
 import { DiagrammeUmlComponent } from './diagramme-uml/diagramme-uml.component';
 import { DiagrammeUmlListComponent } from './diagramme-uml-list/diagramme-uml-list.component';
 import { SingleUmlComponent } from './single-uml/single-uml.component';
@@ -18,11 +15,8 @@ import { SingleUmlComponent } from './single-uml/single-uml.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FaceSnapComponent,
-    FaceSnapListComponent,
     HeaderComponent,
     LandingPageComponent,
-    SingleFaceSnapComponent,
     DiagrammeUmlComponent,
     DiagrammeUmlListComponent,
     SingleUmlComponent,
