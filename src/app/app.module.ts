@@ -10,6 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
+import { DiagrammeUmlComponent } from './diagramme-uml/diagramme-uml.component';
+import { DiagrammeUmlListComponent } from './diagramme-uml-list/diagramme-uml-list.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
     HeaderComponent,
     LandingPageComponent,
     SingleFaceSnapComponent,
+    DiagrammeUmlComponent,
+    DiagrammeUmlListComponent,
   ],
   imports: [
     BrowserModule,
