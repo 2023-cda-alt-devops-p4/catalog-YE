@@ -14,7 +14,7 @@ export class DiagrammeUmlListComponent implements OnInit {
 
   constructor(private diagrammeUmlsService : DiagrammeUmlsService) { }
    
-  ngOnInit(): void {
+  ngOnInit(){
     this.diagrammeUmls = this.diagrammeUmlsService.getAllDiagrammeUmls();
   }
 

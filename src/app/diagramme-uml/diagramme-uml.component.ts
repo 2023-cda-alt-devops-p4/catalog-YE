@@ -12,11 +12,12 @@ export class DiagrammeUmlComponent implements OnInit {
 
   @Input() 
   diagrammeUml!: DiagrammeUml;
+  buttonText!: string;
   
 constructor ( private diagrammeUmlsService : DiagrammeUmlsService,
               private router : Router) { }
 
-  ngOnInit(): void { }
+  ngOnInit() {}
 
   onViewDiagrammeUml(){
     this.router.navigateByUrl(`diagrammeumls/${this.diagrammeUml.id}`);

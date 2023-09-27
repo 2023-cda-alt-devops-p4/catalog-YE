@@ -52,7 +52,7 @@ export class DiagrammeUmlsService{
         return this.diagrammesUmls;
     }
 
-    getDiagrammeById(diagrammeUmlId:number): DiagrammeUml{
+    getDiagrammeUmlById(diagrammeUmlId:number): DiagrammeUml{
         const diagrammeUml = this.diagrammesUmls.find(diagrammeUml => diagrammeUml.id === diagrammeUmlId);
         if (!diagrammeUml){
             throw new Error ('FaceSnap not found');
