@@ -1,5 +1,5 @@
 <div class = "diagramme-uml-card">
-    <h2>{{ diagrammeUml.title | uppercase}}</h2>
+    <h2>{{ diagrammeUml.title | titlecase}}</h2>
     <a routerLink="/diagrammeumls">Back</a>
     <img [src]="diagrammeUml.imageUrl" [alt]="diagrammeUml.title">
     <p>{{diagrammeUml.description}}</p>
