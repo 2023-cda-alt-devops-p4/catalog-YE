@@ -3,5 +3,7 @@ export class DiagrammeUml{
      title!: string;
     description!: string;
     imageUrl!:string;
+    imageUrl2?:string;
+    imageUrl3?:string;
   
 }
