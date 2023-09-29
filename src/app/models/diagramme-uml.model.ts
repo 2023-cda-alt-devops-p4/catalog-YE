@@ -5,5 +5,6 @@ export class DiagrammeUml{
     imageUrl!:string;
     imageUrl2?:string;
     imageUrl3?:string;
+
   
 }
