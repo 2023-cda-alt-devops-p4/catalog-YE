@@ -13,11 +13,8 @@ img {
 }
 
 .btn {
-  padding: 0.8rem;
-  font-size: 14px;
   text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
+  border-radius: 2%;
   display: block;
   width: 100%;
   cursor: pointer;
@@ -28,8 +25,6 @@ img {
 .btn:hover {
   background-color: whitesmoke;
 }
-
-
 
 .card {
   background-color:rgb(235, 235, 235);
@@ -69,7 +64,7 @@ justify-content: center;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
-  font-weight: 400;
+  
 }
 .made_by{
   font-weight: 400;
@@ -77,3 +72,4 @@ justify-content: center;
   margin-top: 35px;
   text-align: center;
 }
+

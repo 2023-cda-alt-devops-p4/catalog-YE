@@ -1,3 +1,5 @@
+
+
 .main{
   display: flex;
   width: 100%;
@@ -18,18 +20,22 @@
 
 .cards_item {
   display: flex;
-  width: 25%;
+  width: 100%;
   
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 768px) {
+  .cards {
+    justify-content: space-between; 
+  }
+
   .cards_item {
-    // width: 50%;
+    width: calc(50% - 1rem); 
   }
 }
 
-@media (min-width: 56rem) {
+@media (min-width: 1024px) {
   .cards_item {
-    // width: 33.3333%;
+    width: calc(33.33% - 1rem); 
   }
 }

@@ -12,7 +12,7 @@ export class MerisesService{
 
             title: " MODÈLE CONCEPTUEL DE DONNÉES (MCD)" ,
             description: "Le Modèle Conceptuel de Données (MCD) représente les entités, leurs attributs et leurs associations dans un système d'information. Il s'agit d'une abstraction visuelle qui définit la structure des données utilisées dans un système, en identifiant les entités (objets), leurs propriétés (attributs) et les relations entre elles. " ,
-            content:"",
+            content:" Un Modèle Conceptuel de Données (MCD) est une représentation visuelle simplifiée de la structure des données que vous souhaitez stocker dans une base de données. C'est comme un plan ou un schéma de ce à quoi ressemblera votre base de données avant même de la créer.<br></br>  Pensez-y comme à la création d'un plan pour une maison avant de commencer à la construire. Dans un MCD, vous utilisez des symboles et des diagrammes pour montrer quelles informations seront stockées, comment elles seront liées les unes aux autres, et quelles sont leurs caractéristiques principales.<br></br>  Les éléments clés d'un MCD incluent généralement des entités (comme des personnes, des produits ou des commandes), des relations (qui montrent comment ces entités sont liées les unes aux autres), et des attributs (les informations spécifiques que vous souhaitez enregistrer pour chaque entité).<br></br> En résumé, un MCD est une manière de planifier et de représenter graphiquement la structure de vos données avant de créer une base de données réelle. Cela aide à clarifier vos besoins en matière de données et à concevoir une base de données efficace.",
             imageUrl: "https://www.prospection-ciblee.com/wp-content/uploads/2021/06/exemple-MCD.jpg",
         },
         {
@@ -21,7 +21,7 @@ export class MerisesService{
             title: "MODÈLE CONCEPTUEL DE TRAITEMENT (MCT)" ,
             description: " Le Modèle Conceptuel de Traitement (MCT) modélise les processus métier et les flux d'information entre eux. Il offre une vue d'ensemble des activités et des opérations au sein d'une organisation, en mettant en évidence comment les données circulent entre les différents processus. ",
             content:"",
-            imageUrl: " ",
+            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9d/MCT_des_contributions_wiki.png",
         },
         {
             id: 17,

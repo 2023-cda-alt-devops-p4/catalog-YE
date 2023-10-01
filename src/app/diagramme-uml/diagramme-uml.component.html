@@ -4,7 +4,9 @@
         </div>
         <div class="card_content">
           <h2 class="card_title">{{ diagrammeUml.title | titlecase}}</h2>
-          <p class="card_text">{{diagrammeUml.description}}</p>
+          <p class="card_text">
+            {{ diagrammeUml.description}}
+          </p>          
           <button class="btn card_btn" (click)="onViewDiagrammeUml()" >Read More</button>
         </div>
       </div>
