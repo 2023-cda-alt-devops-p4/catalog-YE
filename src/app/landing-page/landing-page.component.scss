@@ -1,5 +1,33 @@
+.landing-block{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  padding-left: 10%;
+}
 
+.home{
+  color: #fbbe0f;
+}
+
+.diagrammes{
+  color: #971f42;
+}
+
+.merises{
+color: #432a80;
+}
+.landing-links{
+
+}
 
 button{
   font-size: 20px ;
+}
+
+.text {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #971f42 45%,#fbbe0f 60%, #432a80 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
