@@ -13,7 +13,11 @@ export class LandingPageComponent  implements OnInit {
   ngOnInit() {
   }
 
-  onContinue() {
+  onContinueUml() {
     this.router.navigateByUrl('diagrammeumls')
+  }
+
+  onContinueMerise() {
+    this.router.navigateByUrl('merises')
   }
 }
