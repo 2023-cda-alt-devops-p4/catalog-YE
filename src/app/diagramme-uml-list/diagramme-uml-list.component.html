@@ -1,1 +1,7 @@
-<app-diagramme-uml  *ngFor="let diagrammeUml of diagrammeUmls"[diagrammeUml]="diagrammeUml"></app-diagramme-uml>
+<div class="main">
+    <ul class="cards">
+        <li *ngFor="let diagrammeUml of diagrammeUmls" class="cards_item">
+        <app-diagramme-uml  [diagrammeUml]="diagrammeUml"></app-diagramme-uml>
+        </li>
+    </ul>
+</div>

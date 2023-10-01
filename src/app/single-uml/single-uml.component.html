@@ -2,5 +2,6 @@
     <h2>{{ diagrammeUml.title | titlecase}}</h2>
     <a routerLink="/diagrammeumls">Back</a>
     <p [innerHTML]="diagrammeUml.description"></p>
-    <img [src]="diagrammeUml.imageUrl" [alt]="diagrammeUml.title">
+    <p [innerHTML]="diagrammeUml.content"></p>
+    <img [src]="diagrammeUml.imageUrl" [alt]="">
 </div>
