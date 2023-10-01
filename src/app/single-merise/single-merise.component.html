@@ -1,0 +1,7 @@
+<div class = "merise-card">
+    <h2>{{ merise.title | titlecase}}</h2>
+    <a routerLink="/merises">Back</a>
+    <p [innerHTML]="merise.description"></p>
+    <p [innerHTML]="merise.content"></p>
+    <img [src]="merise.imageUrl" [alt]="">
+</div>

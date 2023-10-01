@@ -1,0 +1,14 @@
+      <div class="card">
+        <div class="card_image"><img [src]="merise.imageUrl" [alt]="merise.title">
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">{{ merise.title | titlecase}}</h2>
+          <p class="card_text">{{merise.description}}</p>
+          <button class="btn card_btn" (click)="onViewMerise()" >Read More</button>
+        </div>
+      </div>
+  
+   
+
+
+      

@@ -1,4 +1,4 @@
-export class DiagrammeUml{
+export class Merise{
     id!:number;
     title!: string;
     description!: string;

@@ -10,6 +10,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { DiagrammeUmlComponent } from './diagramme-uml/diagramme-uml.component';
 import { DiagrammeUmlListComponent } from './diagramme-uml-list/diagramme-uml-list.component';
 import { SingleUmlComponent } from './single-uml/single-uml.component';
+import { SingleMeriseComponent } from './single-merise/single-merise.component';
+import { MeriseListComponent } from './merise-list/merise-list.component';
+import { MeriseComponent } from './merise/merise.component';
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import { SingleUmlComponent } from './single-uml/single-uml.component';
     DiagrammeUmlComponent,
     DiagrammeUmlListComponent,
     SingleUmlComponent,
+    SingleMeriseComponent,
+    MeriseListComponent,
+    MeriseComponent,
   ],
   imports: [
     BrowserModule,
